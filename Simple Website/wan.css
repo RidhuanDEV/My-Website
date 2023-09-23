@@ -66,4 +66,5 @@ img {
     border-radius: 10cm;
     border: 1px;
     border-style: solid;
+    border-top-style: dashed;
 }
