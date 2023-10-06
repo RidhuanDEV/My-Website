@@ -22,9 +22,10 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     
     if (usernameInput === expectedUsername && passwordInputValue === expectedPassword) {
         document.getElementById("message").innerHTML = "Login berhasil!";
-        location.href ="https://github.com/RidhuanDEV";
+        location.href = "https://github.com/RidhuanDEV";
         // Di sini, Anda bisa mengarahkan pengguna ke halaman selanjutnya.
     } else {
         document.getElementById("message").innerHTML = "Login gagal. Silakan coba lagi.";
+        location.href = "https://github.com/RidhuanDEV";
     }
 });

@@ -68,7 +68,7 @@ input[type="checkbox"] {
 }
 
 button[type="submit"] {
-    width: 100%;
+    width: 105%;
     padding: 10px;
     background: #007bff;
     border: none;
@@ -76,13 +76,13 @@ button[type="submit"] {
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 button[type="submit"]:hover {
     background: black;
     transition: 1s linear;
-    rotate: 135deg;
+    
 }
 
 #message {
